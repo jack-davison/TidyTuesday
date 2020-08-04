@@ -16,6 +16,8 @@ europe_countries_grid2$name %>% unique()
 energy_raw <- tuesdata$energy_types %>%
   mutate(country_name = case_when(country_name == "North Macedonia" ~ "N. Macedonia",
                                   country_name == "Bosnia & Herzegovina" ~ "Bosnia & H.",
+                                  country == "UK" ~ "UK",
+                                  country == "EL" ~ "Greece",
                                   TRUE ~ country_name)) %>%
   filter(country_name %in% europe_countries_grid2$name) %>%
   pivot_longer(cols = c(`2016`,`2017`,`2018`), names_to = "year") %>%
