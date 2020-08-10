@@ -2,6 +2,10 @@
 
 A collection of #TidyTuesday visualisations and associated code. #TidyTuesday is a weekly data challenge which allows for the refinement of data cleaning, manipulation and visualisation skills usign the tidyverse collection of R packages. The project was founded in 2018 by Thomas Mock and organized by the R4DS ("R for Data Science") online learning community. A list of visualisations is provided below:
 
+### 11/08/2020 ☯ Avatar: The Last Airbender [(code)](https://github.com/jack-davison/TidyTuesday/blob/master/R/2020_08_11_Avatar.R)
+
+![./plots/avatar.png](https://github.com/jack-davison/TidyTuesday/blob/master/plots/avatar.png)
+
 ### 03/08/2020 🔌 European Power [(code)](https://github.com/jack-davison/TidyTuesday/blob/master/R/2020_08_04_European_Energy.R)
 
 ![./plots/euro.png](https://github.com/jack-davison/TidyTuesday/blob/master/plots/euro.png)
