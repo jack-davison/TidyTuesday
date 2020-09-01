@@ -1,7 +1,6 @@
 
 library(tidytuesdayR)
 library(tidyverse)
-library(geofacet)
 library(rnaturalearth)
 library(cowplot)
 
