@@ -2,19 +2,23 @@
 
 A collection of #TidyTuesday visualisations and associated code. #TidyTuesday is a weekly data challenge which allows for the refinement of data cleaning, manipulation and visualisation skills usign the tidyverse collection of R packages. The project was founded in 2018 by Thomas Mock and organized by the R4DS ("R for Data Science") online learning community. A list of visualisations is provided below:
 
-### 11/08/2020 📺 Friends [(code)](https://github.com/jack-davison/TidyTuesday/blob/master/R/2020_09_08_Friends.R)
+### 15/09/2020 🧒 US Spending on Kids [(code)](https://github.com/jack-davison/TidyTuesday/blob/master/R/2020_09_15_USKidsSpending.R.R)
+
+![./plots/kids.png](https://github.com/jack-davison/TidyTuesday/blob/master/plots/kids.png)
+
+### 08/09/2020 📺 Friends [(code)](https://github.com/jack-davison/TidyTuesday/blob/master/R/2020_09_08_Friends.R)
 
 ![./plots/friends.png](https://github.com/jack-davison/TidyTuesday/blob/master/plots/friends.png)
 
-### 11/08/2020 🌍 World Crop Yeilds [(code)](https://github.com/jack-davison/TidyTuesday/blob/master/R/2020_09_01_Crops.R)
+### 01/09/2020 🌍 World Crop Yeilds [(code)](https://github.com/jack-davison/TidyTuesday/blob/master/R/2020_09_01_Crops.R)
 
 ![./plots/crops.png](https://github.com/jack-davison/TidyTuesday/blob/master/plots/crops.png)
 
-### 11/08/2020 👩‍🍳 Chopped [(code)](https://github.com/jack-davison/TidyTuesday/blob/master/R/2020_08_25_Chopped.R)
+### 25/08/2020 👩‍🍳 Chopped [(code)](https://github.com/jack-davison/TidyTuesday/blob/master/R/2020_08_25_Chopped.R)
 
 ![./plots/chopped.png](https://github.com/jack-davison/TidyTuesday/blob/master/plots/chopped.png)
 
-### 11/08/2020 🥀 Extinct Plants [(code)](https://github.com/jack-davison/TidyTuesday/blob/master/R/2020_08_18_Extinct_Plants.R)
+### 18/08/2020 🥀 Extinct Plants [(code)](https://github.com/jack-davison/TidyTuesday/blob/master/R/2020_08_18_Extinct_Plants.R)
 
 ![./plots/plants.png](https://github.com/jack-davison/TidyTuesday/blob/master/plots/plants.png)
 
