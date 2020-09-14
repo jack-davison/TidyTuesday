@@ -2,7 +2,7 @@
 
 A collection of #TidyTuesday visualisations and associated code. #TidyTuesday is a weekly data challenge which allows for the refinement of data cleaning, manipulation and visualisation skills usign the tidyverse collection of R packages. The project was founded in 2018 by Thomas Mock and organized by the R4DS ("R for Data Science") online learning community. A list of visualisations is provided below:
 
-### 15/09/2020 🧒 US Spending on Kids [(code)](https://github.com/jack-davison/TidyTuesday/blob/master/R/2020_09_15_USKidsSpending.R.R)
+### 15/09/2020 🧒 US Spending on Kids [(code)](https://github.com/jack-davison/TidyTuesday/blob/master/R/2020_09_15_USKidsSpending.R)
 
 ![./plots/kids.png](https://github.com/jack-davison/TidyTuesday/blob/master/plots/kids.png)
 
