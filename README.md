@@ -2,6 +2,10 @@
 
 A collection of #TidyTuesday visualisations and associated code. #TidyTuesday is a weekly data challenge which allows for the refinement of data cleaning, manipulation and visualisation skills usign the tidyverse collection of R packages. The project was founded in 2018 by Thomas Mock and organized by the R4DS ("R for Data Science") online learning community. A list of visualisations is provided below:
 
+### 10/11/2020 📱 Mobiles vs Landlines [(code)](https://github.com/jack-davison/TidyTuesday/blob/master/R/2020_11_10_mobiles.R)
+
+![./plots/mobiles.png](https://github.com/jack-davison/TidyTuesday/blob/master/plots/mobiles.png)
+
 ### 27/10/2020 🇨🇦 Canadian Wind Turbines [(code)](https://github.com/jack-davison/TidyTuesday/blob/master/R/2020_10_27_Canada_Turbines.R)
 
 ![./plots/turbine_table.png](https://github.com/jack-davison/TidyTuesday/blob/master/plots/turbine_table.png)
