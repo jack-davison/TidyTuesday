@@ -56,8 +56,9 @@ plot_data %>%
         legend.position = "none",
         strip.text = element_text(size = 10), 
         plot.title = element_text(face = "bold", size = 20, family = "serif"), 
-        plot.title.position = "plot", 
-        plot.margin = unit(rep(2,4), "cm")) +
+        plot.title.position = "plot", plot.caption.position = "plot", 
+        plot.margin = unit(rep(1,4), "cm")) +
   labs(y = "", x = "", title = "THE COMMUNICATION REVOLUTION",
-       subtitle = "The years in which countries had more fixed mobile subscriptions than landline subscriptions.\nThe earliest and latest adopters of mobile phones are labelled for each continent\n")
+       subtitle = "The years in which countries had more fixed mobile subscriptions than landline subscriptions.\nThe earliest and latest adopters of mobile phones are labelled for each continent\n",
+       caption = "Data from OurWorldInData.org\nVisualisation by Jack Davison (Twitter @JDavison_)\nCode found at github.com/jack-davison")
 
