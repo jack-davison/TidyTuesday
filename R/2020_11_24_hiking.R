@@ -2,6 +2,8 @@
 library(tidytuesdayR)
 library(tidyverse)
 library(stringr)
+library(ggraph)
+library(tidygraph)
 
 tuesdata <- tidytuesdayR::tt_load('2020-11-24')
 
