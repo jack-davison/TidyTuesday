@@ -2,8 +2,14 @@
 library(tidytuesdayR)
 library(tidyverse)
 library(stringr)
+<<<<<<< Updated upstream
 library(ggraph)
 library(tidygraph)
+=======
+library(widyr)
+library(tidygraph)
+library(ggraph)
+>>>>>>> Stashed changes
 
 tuesdata <- tidytuesdayR::tt_load('2020-11-24')
 
@@ -31,7 +37,7 @@ inits = data.frame(name = (data %>% pull(features) %>% unique())) %>%
          type = if_else(init %in% c("DA","DN","GK"), "Companion", "Feature"))
 
 correlation = data %>% 
-  pairwise_cor(item = features, feature = name) %>%
+  pairwise_cor(item = features, feature = name, upper = T) %>%
   filter(abs(correlation) > 0.1) %>%
   as_tbl_graph() %>%
   activate(nodes) %>%
