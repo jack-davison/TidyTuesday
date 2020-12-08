@@ -2,14 +2,9 @@
 library(tidytuesdayR)
 library(tidyverse)
 library(stringr)
-<<<<<<< Updated upstream
-library(ggraph)
-library(tidygraph)
-=======
 library(widyr)
 library(tidygraph)
 library(ggraph)
->>>>>>> Stashed changes
 
 tuesdata <- tidytuesdayR::tt_load('2020-11-24')
 
@@ -44,7 +39,7 @@ correlation = data %>%
   left_join(inits) %>%
   arrange(name)
 
-ggraph(correlation) +
+ggraph(correlation, "stress") +
   # geoms
   geom_edge_link(aes(color = correlation, width = abs(correlation))) +
   geom_node_point(aes(color = type), size = 10) +
