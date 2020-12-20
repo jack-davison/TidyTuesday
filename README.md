@@ -14,7 +14,7 @@ A collection of #TidyTuesday visualisations and associated code. #TidyTuesday is
 
 ![./plots/mobiles.png](https://github.com/jack-davison/TidyTuesday/blob/master/plots/mobiles.png)
 
-### 27/10/2020 🇨🇦 Canadian Wind Turbines [(code)](https://github.com/jack-davison/TidyTuesday/blob/master/R/2020_10_27_Canada_Turbines.R)
+### 27/10/2020 🍁 Canadian Wind Turbines [(code)](https://github.com/jack-davison/TidyTuesday/blob/master/R/2020_10_27_Canada_Turbines.R)
 
 ![./plots/turbine_table.png](https://github.com/jack-davison/TidyTuesday/blob/master/plots/turbine_table.png)
 
