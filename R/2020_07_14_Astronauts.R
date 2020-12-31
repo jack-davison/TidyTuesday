@@ -103,5 +103,7 @@ astro %>%
     plot.title = element_text(face = "bold"),
     plot.subtitle = element_markdown(),
     plot.caption = element_text(hjust = 0, colour = "#7383a8"),
-    plot.margin = unit(c(1, 1, 1, 1), "cm")
+    plot.margin = unit(c(1, 1, 1, 1), "cm"),
+    plot.title.position = "plot",
+    plot.caption.position = "plot"
   )
