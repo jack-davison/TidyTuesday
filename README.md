@@ -3,7 +3,7 @@
 A collection of #TidyTuesday visualisations and associated code. #TidyTuesday is a weekly data challenge which allows for the refinement of data cleaning, manipulation and visualisation skills usign the tidyverse collection of R packages. The project was founded in 2018 by Thomas Mock and organized by the R4DS ("R for Data Science") online learning community. A list of visualisations is provided below:
 
 ### 08/12/2020 🚟 Global Transit Costs [(code)](https://github.com/jack-davison/TidyTuesday/blob/master/R/2021_01_05_transit.R)
-NB: This should read "rail", not "road" - my day job is bleeding in!
+NB: This should read "rail", not "road" - my PhD project is bleeding in!
 
 ![./plots/transit.png](https://github.com/jack-davison/TidyTuesday/blob/master/plots/transit.png)
 
