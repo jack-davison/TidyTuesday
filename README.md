@@ -2,6 +2,10 @@
 
 A collection of #TidyTuesday visualisations and associated code. #TidyTuesday is a weekly data challenge which allows for the refinement of data cleaning, manipulation and visualisation skills usign the tidyverse collection of R packages. The project was founded in 2018 by Thomas Mock and organized by the R4DS ("R for Data Science") online learning community. A list of visualisations is provided below:
 
+### 12/01/2021 🎨 Tate Art Museum [(code)](https://github.com/jack-davison/TidyTuesday/blob/master/R/2021_01_12_tate.R)
+
+![./plots/tate.png](https://github.com/jack-davison/TidyTuesday/blob/master/plots/tate.png)
+
 ### 05/01/2021 🚟 Global Transit Costs [(code)](https://github.com/jack-davison/TidyTuesday/blob/master/R/2021_01_05_transit.R)
 NB: This should read "rail", not "road" - my PhD project is bleeding in!
 
