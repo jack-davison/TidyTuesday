@@ -2,7 +2,7 @@
 
 A collection of #TidyTuesday visualisations and associated code. #TidyTuesday is a weekly data challenge which allows for the refinement of data cleaning, manipulation and visualisation skills usign the tidyverse collection of R packages. The project was founded in 2018 by Thomas Mock and organized by the R4DS ("R for Data Science") online learning community. A list of visualisations is provided below:
 
-### 19/01/2021  Kenya Census Data [(code)](https://github.com/jack-davison/TidyTuesday/blob/master/R/2021_01_19_kenya.R)
+### 19/01/2021 ✍🏿 Kenya Census Data [(code)](https://github.com/jack-davison/TidyTuesday/blob/master/R/2021_01_19_kenya.R)
 
 ![./plots/kenya.png](https://github.com/jack-davison/TidyTuesday/blob/master/plots/kenya.png)
 
