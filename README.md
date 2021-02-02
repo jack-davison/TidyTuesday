@@ -4,7 +4,7 @@ A collection of #TidyTuesday visualisations and associated code. #TidyTuesday is
 
 ### 19/01/2021 👩🏾‍🎓 HBCU Enrollment [(blog post)](https://jack-davison.github.io/posts/2021-02-02-tidytuesday-2021-week-6-hbcu-enrollment-an-ode-to-data-cleaning/)
 
-![./hbcu_tidy_code](https://jack-davison.github.io/posts/2021-02-02-tidytuesday-2021-week-6-hbcu-enrollment-an-ode-to-data-cleaning/)
+![./hbcu_tidy_code.png](https://jack-davison.github.io/posts/2021-02-02-tidytuesday-2021-week-6-hbcu-enrollment-an-ode-to-data-cleaning/)
 
 ### 19/01/2021 ✍🏿 Kenya Census Data [(code)](https://github.com/jack-davison/TidyTuesday/blob/master/R/2021_01_19_kenya.R)
 
