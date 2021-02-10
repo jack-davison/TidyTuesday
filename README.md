@@ -2,6 +2,10 @@
 
 A collection of #TidyTuesday visualisations and associated code. #TidyTuesday is a weekly data challenge which allows for the refinement of data cleaning, manipulation and visualisation skills usign the tidyverse collection of R packages. The project was founded in 2018 by Thomas Mock and organized by the R4DS ("R for Data Science") online learning community. A list of visualisations is provided below:
 
+### 10/02/2021 Wealth and income over time[(code)](https://github.com/jack-davison/TidyTuesday/blob/master/R/2021_02_09_inequalities.R)
+
+![./plots/student_loans.png](https://github.com/jack-davison/TidyTuesday/blob/master/plots/student_loans.png)
+
 ### 19/01/2021 👩🏾‍🎓 HBCU Enrollment [(blog post)](https://jack-davison.github.io/posts/2021-02-02-tidytuesday-2021-week-6-hbcu-enrollment-an-ode-to-data-cleaning/)
 
 ![./plots/hbcu_tidy_code.png](https://github.com/jack-davison/TidyTuesday/blob/master/plots/hbcu_tidy_code.png)
