@@ -4,7 +4,7 @@ A collection of #TidyTuesday visualisations and associated code. #TidyTuesday is
 
 ### 23/03/2021 🌐 UN Votes [(code)](https://github.com/jack-davison/TidyTuesday/blob/master/R/2021_03_23_unvotes.R)
 
-![./plots/bechdel.png](https://github.com/jack-davison/TidyTuesday/blob/master/plots/bechdel.png)
+![./plots/unvotes.png](https://github.com/jack-davison/TidyTuesday/blob/master/plots/unvotes.png)
 
 ### 16/03/2021 🎮 Games on Steam [(blog post)](https://jack-davison.github.io/posts/2021-03-16-tidytuesday-2021-week-12-steam-users/)
 
