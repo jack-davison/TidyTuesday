@@ -1,0 +1,28 @@
+{
+    "id": "C8E25F30",
+    "path": "~/GitHub/TidyTuesday/2021_04_20_tidy_tuesday.Rmd",
+    "project_path": "2021_04_20_tidy_tuesday.Rmd",
+    "type": "r_markdown",
+    "hash": "2347176804",
+    "contents": "",
+    "dirty": false,
+    "created": 1618867281532.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "95,0",
+        "scrollLine": "74",
+        "last_setup_crc32": "",
+        "chunk_output_type": "console"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1618917402,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1618917402244,
+    "read_only": false,
+    "read_only_alternatives": []
+}
