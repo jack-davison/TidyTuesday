@@ -1,0 +1,97 @@
+---
+title: "TidyTemplate"
+date: 2021-04-27
+output: html_output
+editor_options: 
+  chunk_output_type: console
+---
+
+# TidyTuesday
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(tidytuesdayR)
+
+```
+
+# Load the weekly Data
+
+Download the weekly data and make available in the `tt` object.
+
+```{r Load}
+
+tt <- tt_load("2021-04-27")
+
+```
+
+
+# Readme
+
+Take a look at the readme for the weekly data to get insight on the dataset.
+This includes a data dictionary, source, and a link to an article on the data.
+
+```{r Readme, eval = interactive()}
+
+tt
+
+```
+
+
+# Glimpse Data
+
+Take an initial look at the format of the data available.
+
+```{r Glimpse}
+
+tt %>% map(glimpse)
+
+```
+
+# Wrangle
+
+Explore the data and process it into a nice format for plotting! Access each dataset by name by using a dollarsign after the `tt` object and then the name of the data set.
+
+```{r Wrangle}
+
+data = tt$departures
+
+mod_data = data %>%
+  select(-exec_fullname, -gvkey, -co_per_rol, -still_there,
+         -notes, -sources, -eight_ks, -cik) %>%
+  filter(is.na(interim_coceo),
+         tenure_no_ceodb == 1,
+         max_tenure_ceodb == 1) %>%
+  janitor::remove_constant() %>%
+  mutate(departure_code = factor(departure_code, levels = 1:9))
+
+```
+
+
+# Visualize
+
+Using your processed dataset, create your unique visualization.
+
+```{r Visualize}
+
+mod_data %>%
+  drop_na(departure_code) %>%
+  ggplot(aes(x = fyear, y = departure_code)) +
+  ggdist::stat_halfeye()
+
+```
+
+# Save Image
+
+Save your image for sharing. Be sure to use the `#TidyTuesday` hashtag in your post on twitter! 
+
+```{r}
+
+# This will save your most recent plot
+# ggsave(
+#   filename = "My TidyTuesday Plot.png",
+#   device = "png")
+
+```
