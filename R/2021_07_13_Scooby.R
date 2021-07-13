@@ -5,12 +5,20 @@ library(tidytuesdayR)
 library(ggtext)
 library(extrafont)
 
+# Import Fonts
+
 extrafont::font_import()
+
+# Load data
 
 tt = tt_load("2021-07-13")
 
+# Replace NULL with NA
+
 sd = tt$scoobydoo |> 
   mutate(across(where(is.character), ~if_else(.x == "NULL", NA_character_, .x)))
+
+# Markdown labels for images
 
 labels = c(
   "daphnie" = glue::glue("<img src='{here::here('extra_data', 'scooby', 'daphne.png')}'width='56'/>"),
@@ -20,6 +28,8 @@ labels = c(
   "scooby" = glue::glue("<img src='{here::here('extra_data', 'scooby', 'scoob.png')}'width='90'/>")
   )
 
+# Colours for each character
+
 colors = tribble(
   ~name, ~color,
   "daphnie", "#7C6AA8",
@@ -28,6 +38,8 @@ colors = tribble(
   "velma", "#FA9C39", 
   "fred", "#01A0DA"
 )
+
+# Calculate number of unmasks/captures/snacks
 
 uc = sd |> 
   select(index, contains("unmask"), contains("captured"), contains("snack")) |> 
@@ -40,9 +52,13 @@ uc = sd |>
   left_join(colors, by = "name") |> 
   mutate(name = fct_reorder(name, n, max))
 
+# Plot
+
 uc |>
   pivot_wider(names_from = activity, values_from = n) |> 
+  
   ggplot(aes(x = name)) +
+  
   geom_segment(aes(yend = unmask, y = captured, xend = name), color = "grey80", size = 3) +
   geom_segment(aes(yend = snack, y = captured, xend = name), color = "grey80", size = 3) +
   geom_point(size = 8, aes(y = captured, color = color, shape = "Times Captured by Monster")) +
@@ -51,8 +67,12 @@ uc |>
   geom_text(aes(label = unmask, y = unmask), color = "white", family = "Berlin Sans FB Demi") +
   geom_point(size = 8, aes(y = snack, color = color, shape = "Snacks Eaten")) +
   geom_text(aes(label = snack, y = snack), color = "white", family = "Berlin Sans FB Demi") +
+  
   scale_x_discrete(name = NULL, labels = labels) +
+  scale_y_continuous(breaks = seq(0, 100, 25), sec.axis = sec_axis(~.*1,breaks = seq(0, 100, 25))) +
   scale_color_identity() +
+  expand_limits(y = c(0, 110)) +
+  
   theme_minimal() +
   theme(axis.text.x = element_markdown(color = "black", size = 11, vjust = 0),
         axis.title.x = element_text(), 
@@ -64,9 +84,9 @@ uc |>
         legend.title = element_text(family = "Berlin Sans FB Demi", size = 25),
         plot.caption = element_text(family = "Berlin Sans FB", hjust = .5, color = "grey50"),
         plot.margin = unit(rep(.5,4), "cm")) +
-  expand_limits(y = c(0, 110)) +
-  scale_y_continuous(breaks = seq(0, 100, 25), sec.axis = sec_axis(~.*1,breaks = seq(0, 100, 25))) +
+  
   labs(x = NULL, y = NULL, shape = "Mystery Incorporated\nPerformance Review", 
        caption = "\nVisualisation by Jack Davison (@JDavison_) | Data from ScoobyPedia") +
+  
   guides(shape = guide_legend(title.position = "top", title.hjust = .5, label.hjust = .5, override.aes = aes(size =5)))
 
