@@ -2,6 +2,10 @@
 
 A collection of #TidyTuesday visualisations and associated code. #TidyTuesday is a weekly data challenge which allows for the refinement of data cleaning, manipulation and visualisation skills usign the tidyverse collection of R packages. The project was founded in 2018 by Thomas Mock and organized by the R4DS ("R for Data Science") online learning community. A list of visualisations is provided below:
 
+### 13/07/2021 👻 Scooby Doo [(code)](https://github.com/jack-davison/TidyTuesday/blob/master/R/2021_07_13_Scooby.R)
+
+![./plots/scooby.png](https://github.com/jack-davison/TidyTuesday/blob/master/plots/scooby.png)
+
 ### 23/03/2021 🌐 UN Votes [(code)](https://github.com/jack-davison/TidyTuesday/blob/master/R/2021_03_23_unvotes.R)
 
 ![./plots/unvotes.png](https://github.com/jack-davison/TidyTuesday/blob/master/plots/unvotes.png)
