@@ -7,6 +7,7 @@
 
 # User-specific files
 .Ruserdata
+.Rproj.user
 
 # Example code in package build process
 *-Ex.R
@@ -44,3 +45,4 @@ data/mot_tests/dft_test_items/dft_test_item-from-2019-04-01_00-00-01-to-2019-07-
 data/mot_tests/dft_test_items/dft_test_item-from-2019-01-01_00-00-01-to-2019-04-01_00-00-01.csv
 data/mot_2019_proc.rds
 *.rds
+*.pper
