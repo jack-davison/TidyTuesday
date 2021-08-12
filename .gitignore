@@ -46,3 +46,6 @@ data/mot_tests/dft_test_items/dft_test_item-from-2019-01-01_00-00-01-to-2019-04-
 data/mot_2019_proc.rds
 *.rds
 *.pper
+.Rproj.user/shared/notebooks/paths
+.Rproj.user/50BDFF1D/pcs/workbench-pane.pper
+.Rproj.user/50BDFF1D/pcs/windowlayoutstate.pper
