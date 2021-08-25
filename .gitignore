@@ -49,3 +49,4 @@ data/mot_2019_proc.rds
 .Rproj.user/shared/notebooks/paths
 .Rproj.user/50BDFF1D/pcs/workbench-pane.pper
 .Rproj.user/50BDFF1D/pcs/windowlayoutstate.pper
+*.pper
